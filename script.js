@@ -1,15 +1,4 @@
-let removeListItems = document.getElementsByClassName('btn-danger')
 const cartItems = document.querySelector('.cart-items');
-// console.log(removeListItems)
-for (let i = 0 ; i < removeListItems.length ; i ++){
-    let listItem = removeListItems[i];
-    listItem.addEventListener('click',() =>{
-        
-        let  productContainer = listItem.parentElement.parentElement
-        productContainer.remove();
-        updateCartTotal();
-    })
-}
 
 function updateCartTotal() {
     let cartItemContainer = document.getElementsByClassName('cart-items')[0];
@@ -27,11 +16,9 @@ function updateCartTotal() {
 
         let quantity = quantityElement.value;
         total = total+ (price* quantity)
-        // Math.round(total)
-
        
     }
-    total = total.toFixed(2)
+    total =  '$' + total.toFixed(2)
     document.getElementsByClassName('cart-total-price')[0].innerText = total
 }
 
