@@ -1,6 +1,6 @@
 # Cart Page README
 
-This repository contains the implementation of a Cart Page with basic features like adding items, deleting items, and calculating the total cost. The cart page is a part of a web application and is currently under development.
+This repository contains the implementation of a Cart Page with basic features like adding items, deleting items, and calculating the total cost. The cart page is a part of a web application and is currently under development.HTML and CSS files obtained from the [Web Dev Simplified](https://www.youtube.com/watch?v=YeFzkC2awTM). I further practiced and added JavaScript functionalities to enhance the cart page's interactivity.
 
 ## Features
 
