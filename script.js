@@ -94,7 +94,7 @@ function removeCartItem(event) {
     updateCartTotal();
 }
 function resetState(){
-    while(cartItems.firstChild){  // ☝️  // this loop is for ..as long as there is firstchild element inside answerBtn
+    while(cartItems.firstChild){  // ☝️  // this loop is for ..as long as there is firstchild element inside cartItems
        cartItems.removeChild(cartItems.firstChild);
       
     
